@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mywork.css">
+    <title>form</title>
+</head>
+<body>
+ <h1 class="header1"><center>BIENVENUE</center></h1>
+  <h3 class="header2"><center>Formulaire d'inscription "Master Informatique"</center></h3>
+  <div class="countainer">
+    <br>
+    <h4 class="header3">form</h4>
+    <form class="form">
+           <label>Votre Nom</label><label style="margin-left: 125px;">Votre Prenom</label><br><br>
+           <input type="text" placeholder="Entrer Votre Nom">
+           <input type="text" placeholder="Entrer Votre Prenom" style="margin-left: 30px;"><br><br>
+           <label>Date de naissance</label><br><br>
+           <input type="date"><br><br>
+           <label>E-mail</label><br><br>
+           <input type="email" placeholder="exy@mail.com"><br><br>
+           <label1>Sexe : </label>
+           <input type="radio" name="sexe"> <label1>Masculin</label>
+           <input type="radio" name="sexe"> <label1>Feminin</label><br><br>
+           <label>Photo</label>
+           <input type="file"><br><br>
+           <label for="country">Country:</label>
+             <select name="country">
+               <option>--Selectionner un pays--</option>
+               <option>Afghanistan</option>
+               <option>African-east</option>
+               <option>Albania</option>
+               <option>Algeria</option>
+               <option>Tunisia</option>
+             </select><br><br>
+            <label>Votre Niveau en HTML</label>
+            <label for="numberInput"></label>
+            <input type="number" id="numberInput" min="0" max="10" value="5">
+            <label for="rangeInput"></label>
+            <input type="range" id="rangeInput" min="0" max="10" value="5">
+            <br><br>
+            <script>
+                const numberInput = document.getElementById('numberInput'); 
+                 const rangeInput = document.getElementById('rangeInput');
+               numberInput.addEventListener('input', () => {
+               rangeInput.value = numberInput.value;
+                });
+               rangeInput.addEventListener('input', () => {
+               numberInput.value = rangeInput.value;
+               });
+
+            </script>
+          <label>Site</label><br><br>
+          <input type="url" placeholder="http://www.website.com"><br><br>
+          <button type="submit">submit</button>
+          <br><br>
+
+            
+    </form>
+</div>
+</body>
+</html>
