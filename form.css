@@ -1,0 +1,173 @@
+body{
+    background-image: linear-gradient(to left ,rgb(152, 217, 255),#008cff);
+    margin:0;
+    padding:0;
+}
+.header1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.header2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.header3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+        text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.countainer{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+.countainer form{
+    height: 70%;
+    width: 10%;
+    width: 400px;
+    margin: 0 auto;
+}
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+input {
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 160px;
+    height: 15px;
+  }
+  input[type="date"] {
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    height: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+  }
+  input[type="email"] {
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    height: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #008cff;
+  }
+  
+  label1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+  }
+  input[type="file"] {
+    color: transparent;
+    background-color: #008cff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    outline: none;
+    margin-left: 40px;
+    width: 135px;
+    height: 22px;
+  }
+  select{
+    margin-left: 25px;
+  }
+  input[type="Number"]{
+    color: black;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-left: 40px;
+    width: 40px;
+    height: 5px;
+  }
+  input[type="url"] {
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    height: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  input[type="text"] {
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 160px;
+    height: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+    button[type="submit"] {
+      background-color: #008cff; 
+      color: white;
+      border: 2px solid #008cff;
+      padding: 10px 20px; 
+      border-radius: 5px; 
+      font-size: 16px; 
+      cursor: pointer;
+      width: 100px;
+      margin-left: 150px;
+    }
+    
+    /* Hover state */
+    button[type="submit"]:hover {
+      background-color: white;
+      color: #008cff;
+    }
+    
+  
+  
