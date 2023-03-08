@@ -238,8 +238,6 @@ input {
       width: 100px;
       margin-left: 150px;
     }
-    
-    /* Hover state */
     button[type="submit"]:hover {
       background-color: white;
       color: #008cff;
